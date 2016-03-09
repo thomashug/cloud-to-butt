@@ -1,4 +1,4 @@
-Cloud To Butt Plus
+Cloud To Boimits Plus
 =============
 
 Chrome extension that replaces occurrences of 'the cloud' with 'my butt', and other amusing cloud-related substitutions.
