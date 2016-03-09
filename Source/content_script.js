@@ -38,14 +38,14 @@ function handleText(textNode) {
     // c - 1 = b
     m = String.fromCharCode(p1.charCodeAt(0) - 7);
     b = String.fromCharCode(p2.charCodeAt(0) - 1);
-    return m + "y " + b + "utt";
+    return m + "y " + b + "oimits";
   });
 
   // Deal with private clouds
   v = v.replace(/\b(P|p)rivate (C|c)loud/g, function(match, p1, p2, offset, string) {
     // c - 1 = b
     b = String.fromCharCode(p2.charCodeAt(0) - 1);
-    return b + "utt";
+    return b + "oimits";
   });
   // Get the corner cases
   if(v.match(/cloud/i)) {
@@ -54,7 +54,7 @@ function handleText(textNode) {
       v = v.replace(/(C|c)loud/gi, function(match, p1, offset, string) {
         // c - 1 = b
         b = String.fromCharCode(p1.charCodeAt(0) - 1);
-        return b + "utt";
+        return b + "oimits";
       });
     }
   }
